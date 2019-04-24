@@ -28,6 +28,7 @@ describe('App', () => {
   it('should include the TestComponent', () => {
     expect(wrapper.text()).to.include('<TestComponent />')
   });
+
 });
 
 // describe('InFrontOfYou', () => {
